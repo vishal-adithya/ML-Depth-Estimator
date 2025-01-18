@@ -1,0 +1,41 @@
+XGBRegressor(base_score=None, booster='gbtree', callbacks=None,
+             colsample_bylevel=0.9, colsample_bynode=None, colsample_bytree=0.8,
+             device='gpu', early_stopping_rounds=None, enable_categorical=False,
+             eval_metric=None, feature_types=None, gamma=0, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=0.1, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=3,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=200,
+             n_jobs=None, num_parallel_tree=None, random_state=None, ...)
+
+score : 64% variance
+time  : 60min approx
+----------------------------------------------------------------------------------------
+XGBRegressor(base_score=None, booster='gblinear', callbacks=None,
+             colsample_bylevel=0.9, colsample_bynode=None, colsample_bytree=0.7,
+             device='gpu', early_stopping_rounds=None, enable_categorical=False,
+             eval_metric=None, feature_types=None, gamma=0.1, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=0.2, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=9,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=300,
+             n_jobs=None, num_parallel_tree=None, random_state=None, ...)
+
+score : 71% variance
+time  : 40mins approx
+----------------------------------------------------------------------------------------
+XGBRegressor(alpha=2, base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=0.8, colsample_bynode=None, colsample_bytree=0.8,
+             device='gpu', early_stopping_rounds=None, enable_categorical=False,
+             eval_metric=None, feature_types=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None, lambda=1,
+             learning_rate=0.1, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=3,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=100,
+             n_jobs=None, ...)
+
+score : 84% variance
+time  : 40mins approx
